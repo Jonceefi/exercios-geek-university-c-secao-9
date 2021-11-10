@@ -1,7 +1,7 @@
-//Alterando funÁ„o com ponteiro:
+//Alterando fun√ß√£o com ponteiro:
 #include<stdio.h>
 
-//A funÁ„o deve receber o endereÁo dos vetores. 
+//A fun√ß√£o deve receber o endere√ßo dos vetores. 
 void simplificador(int *n,int *d);
 
 int main()
@@ -12,7 +12,7 @@ int main()
 	scanf("%d",&n);
 	printf("Denomidador:");
 	scanf("%d",&d);
-	//O endereÁo dos valores È passado para que possa ser alterado.
+	//O endere√ßo dos valores √© passado para que possa ser alterado.
 	simplificador(&n,&d);
 	
 	printf("[%d]\n---\n[%d]",n,d);
@@ -21,10 +21,10 @@ int main()
 
 void simplificador (int *n, int *d)
 {
-	/*  Aqui criamos uma vari·vel (i) que recebe o valor do numerador (n) 
-		com decrescimento apÛs o fim do FOR, ao encontrar um valor que o
-		divida em partes iguais, passamos para um prÛximo condicional pa-
-		ra verificar se aquele tambÈm divide o denomidador, se sim, alte-
+	/*  Aqui criamos uma vari√°vel (i) que recebe o valor do numerador (n) 
+		com decrescimento ap√≥s o fim do FOR, ao encontrar um valor que o
+		divida em partes iguais, passamos para um pr√≥ximo condicional pa-
+		ra verificar se aquele tamb√©m divide o denomidador, se sim, alte-
 		ra-se os valores e retorna-se ao programa.      	
 	*/
 	int i,div;
